@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lucky Drop Simulator</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="javascript.js"></script>
+</head>
+<body>
+  <div class="main">
+    <div class="tit">
+      Clash Royale Lucky Drop Simulator
+      <img id="luckyDropImage" src="images/MysteryBox_2.webp" alt="Lucky Drop Picture" width="300px" height="auto">
+    </div>
+    <div id="dotsContainer" class="dots">
+      <span class="dot" id="dot1"></span>
+      <span class="dot" id="dot2"></span>
+      <span class="dot" id="dot3"></span>
+    </div>
+    <div class="rarityContainer common" id="rarityContainer">
+      Common
+    </div>
+    <div class="opener">
+      <button id="activateButton">Open Lucky Drop</button>
+    </div>
+    <div id="resultPopup" class="popup" style="display: none;">
+      <span id="resultMessage"></span>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+</body>
+</html>
